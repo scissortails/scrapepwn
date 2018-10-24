@@ -12,5 +12,34 @@ scrapepwn thrives on emails with multiple visible recipients. Simply save the em
 python main.py email.txt
 ```
 
+If scrapepwn finds anything it'll give you an output as follows:
+```
+ ___ ___ ___ ___ ___ ___ ___ _ _ _ ___
+|_ -|  _|  _| .'| . | -_| . | | | |   |
+|___|___|_| |__,|  _|___|  _|_____|_|_|
+                |_|     |_|
+
+
+Reading example.txt
+Found 1 email addresses
+
+================================test@example.com (1/1)================================
+
+[BREACHES]  One or several breaches have been found (200)
+68 breaches found
+000webhost - 000webhost.com (2015-03-01)
+-Email addresses
+-IP addresses
+-Names
+-Passwords
+...
+
+[PASTES] One or several pastes have been found (200)
+57 pastes found
+BuzzMachines.com 40k+ - http://siph0n.in/exploits.php?id=4560 (AdHocUrl)
+balockae.online - http://balockae.online/files/BlackMarketReloaded_users.sql (AdHocUrl)
+...
+```
+
 ## Disclaimer
 While it's bad practice (*and probably against GDPR*) to send private email addresses around it is even more nefarious to use this script to gain access to said addresses. This script is meant to deter from poor security practices and demonstrate just how dangerous it can be.
